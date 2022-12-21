@@ -4,14 +4,15 @@
 //////////////////////////////////
 ////// render ramen function /////
 //////////////////////////////////
-
+function fetchingthings(){
 fetch('http://localhost:3000/ramens')
 .then(res => res.json())
 .then(ramen => {
     ramen.forEach(renderRamen)
     render1stImage(ramen[0])
 })
-
+}
+fetchingthings()
 /////////// render first image ///////
 function render1stImage(newRamen){
     const detailImg = document.querySelector('.detail-image');
@@ -42,8 +43,8 @@ function renderRamen(newRamen){
     const img = document.createElement('img');
     img.className = 'image-of-ramen'
     img.src = newRamen.image;
-    
     imageMenu.append(img);
+
     const detailImg = document.querySelector('.detail-image');
     const detailH2 = document.querySelector('.name');
     const detailRestaurant = document.querySelector('.restaurant');
@@ -147,10 +148,9 @@ ramenBtn.addEventListener('submit', (e) => {
                     body: JSON.stringify(objRating)
                 })
                 .then(res => res.json())
-                .then(ramen => {
-                    console.log(ramen)
+                .then(fetchingthings);
                     
-                })
+                
                 
                 e.target.reset();
             })

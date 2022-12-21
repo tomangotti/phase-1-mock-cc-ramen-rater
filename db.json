@@ -14,7 +14,7 @@
       "restaurant": "Naruto",
       "image": "./assets/ramen/naruto.jpg",
       "rating": "5",
-      "comment": "real good"
+      "comment": "does this even work"
     },
     {
       "id": 3,
@@ -29,8 +29,8 @@
       "name": "Gyukotsu Ramen",
       "restaurant": "Za-Ya Ramen",
       "image": "./assets/ramen/gyukotsu.jpg",
-      "rating": "6",
-      "comment": "wamr soup"
+      "rating": "0",
+      "comment": "soup was called"
     },
     {
       "id": 5,
@@ -44,8 +44,8 @@
       "name": "Big fatty burger",
       "restaurant": "Burger house",
       "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YnVyZ2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "rating": "10",
-      "comment": "WE WANT BURGERS ",
+      "rating": "2",
+      "comment": "there was bugs in it",
       "id": 6
     },
     {
