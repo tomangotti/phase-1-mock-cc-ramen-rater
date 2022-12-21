@@ -29,8 +29,8 @@
       "name": "Gyukotsu Ramen",
       "restaurant": "Za-Ya Ramen",
       "image": "./assets/ramen/gyukotsu.jpg",
-      "rating": "0",
-      "comment": "soup was called"
+      "rating": "10",
+      "comment": "soup saved my life"
     },
     {
       "id": 5,

@@ -148,7 +148,7 @@ ramenBtn.addEventListener('submit', (e) => {
                     body: JSON.stringify(objRating)
                 })
                 .then(res => res.json())
-                .then(fetchingthings);
+                //.then(fetchingthings);
                     
                 
                 
